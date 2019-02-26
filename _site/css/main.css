@@ -52,7 +52,10 @@ html {
   padding: 0 30px;
 }
 body {
+  display: flex;
+  flex-direction: column;
   font-family: helvetica, arial, sans;
+  min-height: 100vh;
 }
 h1 {
   font-size: 7vw;
@@ -306,4 +309,9 @@ h2 ~ p {
 }
 .bio-copy a {
   color: green;
+}
+
+/**/
+.content-container {
+  flex-grow: 1;
 }
