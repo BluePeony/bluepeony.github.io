@@ -264,8 +264,10 @@ h2 ~ p {
 }
 
 .home-callout {
+  align-items: center;
   background-color: #000;
   color: #fff;
+  display: flex;
   padding: 7vh 0;
 }
 
