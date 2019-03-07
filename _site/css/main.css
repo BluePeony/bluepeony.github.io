@@ -626,10 +626,6 @@ h4 {
     width: auto;
   }
 
-  .gallery .col-content {
-  	margin-top: -9rem;
-  }
-
   .gallery .gallery-info {
     flex: 1;
   }
