@@ -558,7 +558,7 @@ h4 {
   padding-top: 2em;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 400px) {
 	html {
 		box-shadow: none;
 		padding: 0;
