@@ -54,7 +54,7 @@ html {
 body {
   display: flex;
   flex-direction: column;
-  font-family: helvetica, arial, sans;
+  font-family: 'Open Sans', helvetica, arial, sans;
   min-height: 100vh;
 }
 .content-container {
@@ -62,6 +62,10 @@ body {
   flex: 1 1 auto;
   padding-top: 10vh;
   width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', helvetica, sans;
+  font-weight: 100;
 }
 h1 {
   font-size: 7vw;
@@ -509,6 +513,7 @@ h4 {
 }
 .bio-box h3 {
   color: #fff;
+  font-family: 'Srisakdi', helvetica, sans;
   font-size: 1.5em;
   margin: -40px 0 1em;
   text-align: center;
